@@ -1,0 +1,66 @@
+body {
+  font-family: Roboto, sans-serif; 
+	background: #ec008c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fc6767, #ec008c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+	background: #ffffff;
+	height: 200px;
+	width: 500px;
+	border-radius: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -80%);
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+h1 {
+	padding: 10px;
+	color: #fc6767;
+	text-align: center;
+}
+
+h3 {
+	color: #ffffff;
+}
+
+.content {
+	text-align: center;
+	padding: 0px 20px;
+}
+
+.field {
+  font-weight: 700;
+  border-width: 3px;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #fc6767;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fc6767;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+::placeholder {
+  color: #fc6767;
+}
+
+#btn {
+	color: #ffffff;
+	background: #fc6767;
+	margin: 14px;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	font-weight: 600;
+	height: 32px;
+	width: 162px;
+}
